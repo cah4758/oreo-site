@@ -7,6 +7,9 @@
     <title>Oreo 101</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon_io/favicon-16x16.png">
     <link
       href="https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Ubuntu:wght@300;400;700&display=swap"
       rel="stylesheet"
@@ -19,61 +22,104 @@
   </head>
   <body>
     <div class="container">
-      <header>
-        <h1>Oreo 101</h1>
-        <p>Quick Site for the pup</p>
-        <nav>
-          <a href="#food">Food</a>
-          <a href="#schedule">Schedule</a>
-          <a href="#quirks">Quirks</a>
-        </nav>
-      </header>
+        <div class="top">
+            <header>
+                <h1>Oreo 101</h1>
+                <p>Quick Site for the pup</p>
+                <nav>
+                <a href="#food">Food</a>
+                <a href="#schedule">Schedule</a>
+                <a href="#quirks">Quirks</a>
+                </nav>
+            </header>
+    </div>
       <main>
-        <div id="food">
-          <div class="daily">
-            <h4 class="header">Daily Meal</h4>
-            <p class="description">2/3 Cup of food daily</p>
-          </div>
+        <div id="food" class="section">
+            <h2>FOOD</h2>
+            <div class="daily">
+                <h4 class="title">Daily Meal</h4>
+                <p class="description">
+                2/3 Cup of food daily. Will graze if she's hungry but will mainly
+                eat in the evening.
+                </p>
+                <br />
+                <h4 class="title">Water</h4>
+                <p class="description">
+                Usually drinks throughout the day. Will probably gulp a ton down
+                after some good play.
+                </p>
+                <br />
+                <h4 class="title">Snacks</h4>
+                <p class="description">
+                Has 3 different treats she can have once a day: 
+                <ul class="snack-list">
+                    <li>Cranberry Treat (red label)</li>
+                    <li>Allergy Treat (gold label)</li>
+                    <li>GREENIE</li>
+                </ul>
+                </p>
+            </div>
         </div>
-        <div class="schedule" id="schedule">
-          <div class="labels">
-            <p class="lbl-time">Time</p>
-            <p class="lbl-details">Details</p>
-            <p class="lbl-comments">Comments</p>
-          </div>
-          <div class="events">
-            <p class="time">Morning<br />(8ish am)</p>
-            <p class="detail">Restroom Walk</p>
-            <p class="comment">
-              Can either be a short walk for #1 & 2 or a longer one (20ish
-              minutes)
-            </p>
-          </div>
-          <div class="events">
-            <p class="time">Early Afternoon<br />(4ish pm)</p>
-            <p class="detail">Plenty of naps. Maybe a restroom walk.</p>
-            <p class="comment">
-              She's an inside dog through and through but can handle outside
-              stuff, of course! If she goes potty, you can give her a cranberry
-              or allergy treat.
-            </p>
-          </div>
-          <div class="events">
-            <p class="time">Evening<br />(6ish pm)</p>
-            <p class="detail">Restroom walk.</p>
-            <p class="comment">
-              Usually goes potty around this time. If it's not hot, she can take
-              a 20ish minute walk here, too. She can have a cranberry or allergy
-              treat here, too. Opposite of whatever she got earlier.
-            </p>
-          </div>
-          <div class="events">
-            <p class="time">Night<br />(10ish pm)</p>
-            <p class="detail">Restroom walk.</p>
-            <p class="comment">Final time for #1. Greenie time, too!</p>
-          </div>
+        <div class="section" id="schedule">
+            <h2>SCHEDULE</h2>
+            <div class="schedule">
+                <div class="labels">
+                    <p class="lbl-time">Time</p>
+                    <p class="lbl-details">Details</p>
+                    <p class="lbl-comments">Comments</p>
+                </div>
+                <div class="events">
+                    <p class="time">Morning<br />(8ish am)</p>
+                    <p class="detail">Restroom Walk</p>
+                    <p class="comment">
+                    Can either be a short walk for #1 & 2 or a longer one (20ish
+                    minutes)
+                    </p>
+                </div>
+                <div class="events">
+                    <p class="time">Daytime<br />(12-4ish pm)</p>
+                    <p class="detail">Plenty of naps. Maybe a restroom walk.</p>
+                    <p class="comment">
+                    She's an inside dog through and through but can handle outside
+                    stuff, of course! If she goes potty, you can give her a cranberry
+                    or allergy treat.
+                    </p>
+                </div>
+                <div class="events">
+                    <p class="time">Evening<br />(6ish pm)</p>
+                    <p class="detail">Restroom walk.</p>
+                    <p class="comment">
+                    Usually goes potty around this time. If it's not hot, she can take
+                    a 20ish minute walk here, too. She can have a cranberry or allergy
+                    treat here, too. Opposite of whatever she got earlier.
+                    </p>
+                </div>
+                <div class="events">
+                    <p class="time">Night<br />(10ish pm)</p>
+                    <p class="detail">Restroom walk.</p>
+                    <p class="comment">Final time for #1. Greenie time, too!</p>
+                </div>
+            </div>
         </div>
-        <div id="quirks"></div>
+        <div class="section" id="quirks">
+            <h2>QUIRKS</h2>
+            <div class="quirk">
+                <h3>#1</h3>
+                <p class="description">I wish there was a better way to say it but...she still eats poop. It's stupid and embarassing. She'll do a stupid spin while pooping but just pull her leash up and she'll stay still.</p>
+            </div>
+            <div class="quirk">
+                <h3>#2</h3>
+                <p class="description">She likes to scoot her butt sometimes just because. Promise she doesn't have worms!</p>
+            </div>
+            <div class="quirk">
+                <h3>#3</h3>
+                <p class="description">She likes to play with a bunch of different toys. She likes finding her tennis ball when it's hidden, chasing the ball to go get some water or food, wrestling/biting her pillow and any of her fluffy toys.</p>
+            </div>
+            <div class="quirk">
+                <h3>#4</h3>
+                <p class="description">Personally, I like to just give her some good pats after she eats and drinks water bc it's funny to hear her burp. She might come up to you after eating for that (lol)</p>
+            </div>
+        </div>
       </main>
     </div>
     <script src="index.js"></script>
